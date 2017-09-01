@@ -24,11 +24,12 @@
 
 
 .body{
-	background-image: url("earthh.jpg");
+	background-image: none;
+    background-color: #996633;
 }
 
 header {
-    background-image: url("water.jpg");
+    background-image: url("firee.jpg");
 
 }
 
@@ -39,8 +40,6 @@ header {
     padding: 0;
     overflow: hidden;
     background-color: none;
-    border-style: solid;
-    border-width: 100%;
 }
 
 .sect{
@@ -49,14 +48,11 @@ header {
     padding: 0;
     overflow: hidden;
     background-color: none;
-    border-style: solid;
-    border-width: 100%;
 
 }
 
 li {
     float: left;
-    border-right: 2px solid black;
     
 }
 
@@ -73,7 +69,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #87bdd8;
+    background-color: orange;
 }
 
 .main{
@@ -98,11 +94,11 @@ h2{
     font-style: oblique;
     font-family: Verdana;
     font-variant: small-caps;
-    color: #000033;
+    color: #251300;
 }
 
 h3{
-    color: #191970;
+    color: #582C00;
     text-decoration: underline;
 }
 
@@ -141,7 +137,7 @@ footer{
     text-align: center;
 
 }
-
+/*
 .ficthead{
     background-image: none;
     background-color: blue;
@@ -154,9 +150,9 @@ footer{
     font-size: 20px;
 
 }
-
+*/
 .active{
-    background-color: #87bdd8;
+    background-color: orange;
 }
 
 
