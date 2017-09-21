@@ -1,0 +1,25 @@
+.visors{
+	float: left;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.valor{
+	float: left;
+	width: 24.3%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.valor button{
+	width: 28.15%;
+}
+
+.screen{
+	float: left;
+	width: 50%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
