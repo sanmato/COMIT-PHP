@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Portero Digital</title>
 	<meta charset="utf-8">
 	<script src="main.js" type="text/javascript">
 	</script>
@@ -10,29 +10,29 @@
 </head>
 <body>
 	<div class="visors">
-	<input type="text" id="piso" disabled value="Piso">
+	<input type="text" id="piso" placeholder="Piso" disabled >
 
-	<input type="text" id="departamento" disabled value= "Departamento">
+	<input type="text" id="departamento" placeholder="Departamento" disabled>
 
 	</div>
 
 	<div class="valor">
-		<button>1</button>
-		<button>2</button>
-		<button>3</button>
-		<button>4</button>
-		<button>5</button>
-		<button>6</button>
-		<button>7</button>
-		<button>8</button>
-		<button>9</button>
-		<button>0</button>
-		<button>Llamar</button>
-		<button>Borrar</button>
+		<button id="uno" onclick="show('1');">1</button>
+		<button id="dos" onclick="show('2');">2</button>
+		<button id="tres" onclick="show('3');">3</button>
+		<button id="cuatro" onclick="show('4');">4</button>
+		<button id="cinco" onclick="show('5');">5</button>
+		<button id="seis" onclick="show('6');">6</button>
+		<button id="siete" onclick="show('7');">7</button>
+		<button id="ocho" onclick="show('8');">8</button>
+		<button id="nueve" onclick="show('9');">9</button>
+		<button id="cero" onclick="show('0');">0</button>
+		<button id="llamar" onclick="call();" disabled>Llamar</button>
+		<button id="borrar" onclick="delet();">Borrar</button>
 	</div>
 
 	<div class="screen">
-		
+		<input type="text" id="visor" placeholder="Marque el Piso y el Departamento" disabled>
 	</div>
 </body>
 

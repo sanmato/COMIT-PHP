@@ -1,25 +1,29 @@
 .visors{
 	float: left;
-	width: 30%;
-	margin-left: 35%;
-	margin-right: 35%;
+	width:25%;
+	margin-left: 40%;
+	margin-right: 40%;
 }
 
 .valor{
 	float: left;
-	width: 24.3%;
-	margin-left: 35%;
-	margin-right: 35%;
+	width: 15.1%;
+	margin-left: 40%;
+	margin-right: 40%;
 }
 
 .valor button{
-	width: 28.15%;
+	width: 47%;
 }
 
-.screen{
+.screen input{
+	width: 15rem;
 	float: left;
-	width: 50%;
-	margin-left: 35%;
-	margin-right: 35%;
+	margin-left: 40%;
+	margin-right: 40%
+}
+
+.visors input{
+	width: 27%;
 }
 
