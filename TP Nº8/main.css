@@ -1,0 +1,47 @@
+.container{
+	width: 35%;
+	margin: 0 auto;
+	background-color: gray;
+}
+
+
+
+ul{
+	list-style-type: none;
+    height: 10rem;
+    margin-bottom: 5%;
+
+}
+
+li{
+	margin-right: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+
+}
+
+.green{
+	background-color: green;
+}
+
+.red{
+	background-color: red;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.gray{
+	background-color: white;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.white{
+	background-color: white;
+}
+
+
