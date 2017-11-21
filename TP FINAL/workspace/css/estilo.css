@@ -1,0 +1,74 @@
+.nav-item{
+	font-size: 1em;
+}
+.navbar{
+	background-color: #202927;
+}
+
+.redes{
+	text-align: center;
+	padding-top: 3.4em;
+	padding-bottom: 3em;
+	padding-right: 3em;
+}
+.redes a{
+	padding-left: 3em;
+}
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: orange;
+}
+
+.navbar-nav{
+	font-family: sans-serif;
+}
+.corriendo/*deja un espacio para evitar el solapado del header sobre el contenido de la web*/{
+	height: 6em;
+}
+.dropdown-menu-right{
+	width:19rem;
+	/*padding-left: .5rem;*/
+}
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link:hover, .navbar.navbar-dark .navbar-toggler, .navbar.navbar-dark form .form-control, .pagination .active .page-link:hover {
+    color: black;
+}
+
+#nombre::-webkit-input-placeholder,#pass::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #7b7a7a;
+}
+#nombre::-moz-placeholder, #pass::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #7b7a7a;
+   opacity:  1;
+}
+#nombre::-moz-placeholder, #pass::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #7b7a7a;
+   opacity:  1;
+}
+#nombre::-ms-input-placeholder, #pass::-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #7b7a7a;
+}
+#nombre::-ms-input-placeholder, #pass::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #7b7a7a;
+}
+
+.carousel .carousel-control-prev-icon {
+    background-image: url("flechas/back.svg");
+}
+.carousel .carousel-control-next-icon {
+    background-image: url("flechas/next.svg");
+}
+
+.navbar-nav #ocultar{
+	float: right!important;
+	position: relative;
+	color: red;
+}
+
+@media (max-width: 1000px){
+	#ocultar{
+		display: none;
+	}
+}
+h1{
+	font-family: 'Acme', sans-serif;
+	font-size: 4em;
+}

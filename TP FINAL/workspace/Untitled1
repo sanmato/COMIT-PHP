@@ -1,0 +1,15 @@
+          <?php
+            $consulta = "select id, localidad from localidades;";
+            $rs = mysqli_query($db, $consulta);
+            if($rs){
+              while($reg = mysqli_fetch_array($rs)){
+                $id = $reg[0];
+                $loc = $reg[1];
+                //echo '<option value="'.$id.'">'.$loc.'</option>';
+          ?>
+              <option value="<?php echo $id;?>"><?php echo $loc;?></option>
+          <?php
+              }
+            }
+
+          ?>
